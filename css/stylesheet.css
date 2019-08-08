@@ -90,4 +90,7 @@ section {
     section {
         margin:5px 0;
     }
+    body {
+        width:100%;
+    }
 }
