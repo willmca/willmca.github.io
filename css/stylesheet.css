@@ -90,4 +90,10 @@ section {
     section {
         margin:5px 0;
     }
+    h1 {
+        font-size:20px;
+    }
+    body {
+        width:100%;
+    }
 }
