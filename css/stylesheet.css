@@ -37,6 +37,10 @@ a {
     text-decoration:none;
     color:white;
 }
+a:hover{
+    text-decoration:underline;
+    color:salmon;
+}
 nav {
     background-color:silver ;
     font-family: 'Roboto', sans-serif;
@@ -74,6 +78,17 @@ section {
     text-align:center;
     line-height: 100px;
     font-family: 'Roboto', sans-serif;
+}
+.pokemonDiv{
+    background-image: url("./../images/image.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: solid salmon 1px;
+    height:200px;
+    width:250px;
+}
+section:hover{
+    text-decoration: underline;
 }
 .work {
     display:flex;
