@@ -87,6 +87,9 @@ section {
     height:200px;
     width:250px;
 }
+.pokemonDiv:hover{
+    border: solid salmon 3px;
+}
 section:hover{
     text-decoration: underline;
 }
