@@ -97,9 +97,6 @@ section {
     height:200px;
     width:250px;
 }
-.pokemonDiv:hover, .apiDiv:hover{
-    border: solid salmon 3px;
-}
 section:hover{
     text-decoration: underline;
 }
@@ -107,7 +104,7 @@ section:hover{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
-    margin:30px 10px;
+    margin:30px 0;
 }
 .footer{
     margin:0 25px;
@@ -122,6 +119,20 @@ figcaption{
     font-size:10px;
     margin-top:10px;
 }
+.pokemonDiv:hover, .apiDiv:hover{
+    
+        animation: bounce 1s infinite alternate;
+      }
+      
+      @keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-25px);
+        }
+      }
+
 @media (max-width: 500px) {
     .work {
         flex-direction:column;
