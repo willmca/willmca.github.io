@@ -89,7 +89,15 @@ section {
     height:200px;
     width:250px;
 }
-.pokemonDiv:hover{
+.apiDiv{
+    background-image: url("./../images/bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: solid salmon 1px;
+    height:200px;
+    width:250px;
+}
+.pokemonDiv:hover, .apiDiv:hover{
     border: solid salmon 3px;
 }
 section:hover{
@@ -107,7 +115,13 @@ section:hover{
 .placeholder{
     display:none;
 }
-
+figcaption{
+    width:250px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:10px;
+    margin-top:10px;
+}
 @media (max-width: 500px) {
     .work {
         flex-direction:column;
