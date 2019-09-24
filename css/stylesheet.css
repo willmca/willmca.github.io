@@ -133,12 +133,14 @@ figcaption{
         }
       }
 
+      @media (max-width: 800px) {
+        .work {
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+
 @media (max-width: 500px) {
-    .work {
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-    }
     section {
         margin:5px 0;
     }
@@ -148,4 +150,4 @@ figcaption{
     body {
         width:100%;
     }
-}
+}}
