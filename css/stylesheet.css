@@ -92,6 +92,14 @@ section {
     height:200px;
     width:250px;
 }
+.P3Div{
+    background-image: url("./../images/Project3.png");
+    background-size:cover;
+    background-position: center;
+    border: solid salmon 1px;
+    height:200px;
+    width:250px;
+}
 .apiDiv{
     background-image: url("./../images/bg.png");
     background-size:cover;
@@ -122,7 +130,7 @@ figcaption{
     font-size:10px;
     margin-top:10px;
 }
-.pokemonDiv:hover, .apiDiv:hover{
+.pokemonDiv:hover, .apiDiv:hover, .P3Div:hover{
     
         animation: bounce 1s infinite alternate;
       }
